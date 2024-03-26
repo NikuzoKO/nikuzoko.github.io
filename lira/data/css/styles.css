@@ -1,0 +1,52 @@
+@font-face {
+	font-family: rumbleBrave;
+	src: url('../media/fonts/rumbleBrave.otf');
+}
+
+* {
+	padding: 0px;
+	margin: 0px;
+	border: 0px;
+}
+
+body {
+	width: 100%;
+	height: 100%;
+	background-color: #092635;
+}
+
+.navigationBar {
+	overflow: hidden;
+	display: flex;
+	position: fixed;
+	height: 6%;
+	width: 100%;
+	background-color: #1B4242;
+	align-items: center;
+}
+
+.navigationBar a {
+	height: 100%;
+	width: auto;
+	display: block;
+	font-family: rumbleBrave;
+	font-size: 250%;
+	text-decoration: none;
+	color: #FFFFFF;
+	-webkit-text-stroke-width: 1.3px;
+	-webkit-text-stroke-color: #000000;
+	padding: 0px 15px;
+}
+
+.navigationBar a:hover {
+	background-color: #9EC8B9;
+}
+
+.navigationBar .youAreHere {
+	background-color: #5C8374;
+}
+
+.navigationBar a img {
+	height: 90%;
+	vertical-align: middle;
+}
