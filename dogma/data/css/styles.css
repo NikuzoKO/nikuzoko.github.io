@@ -1,0 +1,104 @@
+/* Variables */
+:root{
+	--backColor: #0F0F0F;
+	--bordColor: #232D3F;
+	--textColor: #FFFFFF;
+	--highColor: #008170;
+}
+
+/* Shared Styles */
+*{
+	font-family: 'VCR OSD Mono';
+	text-align: center;
+	color: var(--textColor);
+	color-scheme: only light;
+	background-color: var(--backColor);
+	cursor: default;
+	-moz-user-select: none;
+	-webkit-user-select: none;
+	-ms-user-select:none;
+	user-select:none;
+	-o-user-select:none;
+	overflow: none;
+}
+
+body, html{
+	margin: none;
+	padding: none;
+	border: none;
+	z-index: 1;
+}
+
+hr{
+	border-color: var(--bordColor);
+	width: 99%;
+}
+
+a{
+	text-decoration: none;
+}
+
+input[type=text]{
+	background: transparent;
+	font-size: 100%;
+	border: none;
+	outline: none;
+	cursor: text;
+}
+
+input[type=text]::placeholder{
+	color: var(--textColor);
+}
+
+input::-webkit-calendar-picker-indicator{
+	visibility: hidden;
+}
+
+::-webkit-scrollbar{
+	display: none;
+}
+
+.verticalAlign{
+	position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.title{
+	font-size: 200%;
+	text-decoration: underline;
+}
+
+.subTitle{
+	font-size: 160%;
+}
+
+.top{
+	position: fixed;
+	padding: top;
+	top: 5%;
+}
+
+.bot{
+	position: fixed;
+	padding: bottom;
+	bottom: 5%;
+}
+
+/* Home */
+
+#startMenu{
+	position: relative;
+	left: 5%;
+}
+
+/* Dogma Page 2 */
+
+.axioma{
+	color: var(--highColor);
+}
+
+.displayNone{
+	display: none;
+}
