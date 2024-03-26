@@ -19,7 +19,7 @@ body {
 	overflow: hidden;
 	display: flex;
 	position: fixed;
-	height: 6%;
+	height: 7%;
 	width: 100%;
 	background-color: #1B4242;
 	align-items: center;
@@ -30,7 +30,7 @@ body {
 	width: auto;
 	display: block;
 	font-family: rumbleBrave;
-	font-size: 250%;
+	font-size: 300%;
 	text-decoration: none;
 	color: #FFFFFF;
 	-webkit-text-stroke-width: 1.3px;
@@ -47,6 +47,6 @@ body {
 }
 
 .navigationBar a img {
-	height: 90%;
+	height: 80%;
 	vertical-align: middle;
 }
