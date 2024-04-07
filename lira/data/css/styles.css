@@ -12,41 +12,46 @@
 body {
 	width: 100%;
 	height: 100%;
-	background-color: #092635;
+	background-color: #081C19;
 }
 
 .navigationBar {
 	overflow: hidden;
 	display: flex;
 	position: fixed;
-	height: 7%;
+	height: 5rem;
 	width: 100%;
-	background-color: #1B4242;
+	background-color: #173940;
 	align-items: center;
+	color: #F7F7F7;
+	-webkit-text-stroke-width: 1.5px;
+	-webkit-text-stroke-color: #000000;
 }
 
-.navigationBar a {
+.navigationBar div {
 	height: 100%;
 	width: auto;
-	display: block;
-	font-family: rumbleBrave;
-	font-size: 300%;
+	display: flex;
+	font-size: 3rem;
 	text-decoration: none;
-	color: #FFFFFF;
-	-webkit-text-stroke-width: 1.3px;
-	-webkit-text-stroke-color: #000000;
-	padding: 0px 15px;
+	padding: 0 1rem;
+	align-items: center;
+	justify-content: center;
 }
 
-.navigationBar a:hover {
-	background-color: #9EC8B9;
+.navigationBar div:hover {
+	background-color: #294560;
 }
 
 .navigationBar .youAreHere {
-	background-color: #5C8374;
+	background-color: #404A7D;
 }
 
-.navigationBar a img {
-	height: 80%;
-	vertical-align: middle;
+.navigationBar img {
+	height: 4rem;
+	padding: 0 5px;
+}
+
+.navigationBar img .user{
+	
 }
