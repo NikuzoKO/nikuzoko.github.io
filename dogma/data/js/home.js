@@ -6,7 +6,7 @@ document.addEventListener("DOMContentLoaded", () => {
     Contacto: "data/pages/dogmaContact.html",
     Créditos: "data/pages/dogmaCredits.html",
   };
-  menu.addEventListener("change", () => {
+  menu.addEventListener("input", () => {
     return (
       window.open(options[menu.value], "_self") || window.open("#", "_self")
     );
