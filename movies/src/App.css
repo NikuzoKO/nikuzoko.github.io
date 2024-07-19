@@ -1,0 +1,42 @@
+#hero {
+    height: 250px;
+}
+
+#hero .blur {
+    background-color: rgba(0, 0, 0, 0.5);
+    position: relative;
+}
+
+#hero .img-hero {
+    position: absolute;
+    top: 0;
+    z-index: -1;
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+
+.moviePoster {
+    width: 20rem;
+    aspect-ratio: 9/14;
+    transition: transform 0.2s;
+}
+
+.moviePoster:hover {
+    transform: scale(1.1);
+}
+
+.video-responsive {
+    overflow: hidden;
+    padding-bottom: 56.25%;
+    position: relative;
+    height: 0;
+}
+
+.video-responsive iframe {
+    left: 0;
+    top: 0;
+    height: 100%;
+    width: 100%;
+    position: absolute;
+}
